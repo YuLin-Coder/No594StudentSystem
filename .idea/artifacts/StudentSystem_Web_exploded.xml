@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="StudentSystem:Web exploded">
+    <output-path>$PROJECT_DIR$/classes/artifacts/StudentSystem_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="StudentSystem/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="StudentSystem" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="module" name="spring-tx-4.2.4.RELEASE.jar" module-name="StudentSystem" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
